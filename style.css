@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --nav-color: #04052e;
+  --nav-text-color: white;
+  --font-family: "Cabin", sans-serif;
+  --main-color: #000000;
+  --main-bg-color: white;
+  --text-color: black;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+/* main-section */
+
+/* sub-container-1 */
+.sub-container-1 img {
+  display: block;
+  height: 400px;
+}
+
+/* subc-container2 */
+.sub-container-2 {
+  display: inline-block;
+}
+.sub-container-2 .description-1 {
+  text-size-adjust: 100%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 7rem;
+  color: var(--main-color);
+  font-family: var(--font-family);
+}
+.sub-container-2 .headings {
+  color: var(--main-color);
+  font-family: var(--font-family);
+  margin-top: 1rem;
+}
+.sub-container-2 .description-2 {
+  font-size: 1.4rem;
+  text-size-adjust: 100%;
+  font-weight: 500;
+  color: var(--main-color);
+  font-family: var(--font-family);
+  padding: 0 2rem 0 2rem;
+  margin-top: 1rem;
+}
+.connect-btn {
+  width: 260px;
+  padding: 10px;
+  font-family: var(--font-family);
+  border-radius: 2rem;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards svg {
+  height: 130px;
+  width: 130px;
+  padding: 2rem;
+  margin: 1rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+/* skills section 3 */
+.container-fluid h3 {
+  font-family: var(--font-family);
+  color: var(--main-color);
+  margin-top: 2rem;
+}
+
+
+
+/* projects*/
+.projects h3 {
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+.sub-card1,
+.sub-card2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5rem;
+}
+.sub-text1,
+.sub-text2 {
+  font-size: 2rem;
+  font-family: var(--font-family);
+  color: var(--main-color);
+  padding: 2rem;
+}
+.min-card1 svg {
+  height: 50px;
+  width: 50px;
+}
+.sub-card1 .main-img {
+  width: 400px;
+}
+.sub-card2 .main-img {
+  width: 400px;
+}
+.sub-card1 h5 {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.sub-card2 h5 {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.text-main {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  color: var(--main-color);
+}
+.text {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  font-family: var(--font-family);
+  color: var(--main-color);
+}
+
+/* services */
+.main-cards {
+  margin-top: 4rem;
+}
+.main-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+.card-1 svg {
+  height: 130px;
+  width: 130px;
+  padding: 2rem;
+  margin-left: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.card-1 h4,
+p {
+  text-align: center;
+  line-height: 2rem;
+  margin-top: 2rem;
+  text-size-adjust: 100%;
+}
+
+/* footer */
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-row svg {
+  height: 130px;
+  width: 130px;
+  padding: 2rem;
+  margin: 1rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+/* responisveness */
+@media screen and (max-width: 750px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-container-1 img {
+    margin-left: 5rem;
+  }
+  .cards,
+  .sub-card1,
+  .sub-card2,
+  .main-part {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-1 svg {
+    margin-left: 9rem;
+  }
+  .footer-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
