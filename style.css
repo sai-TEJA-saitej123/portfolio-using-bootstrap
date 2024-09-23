@@ -1,7 +1,7 @@
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* margin: auto; */
 }
 :root {
   --nav-color: #04052e;
@@ -102,9 +102,11 @@ body {
 }
 .sub-card1 .main-img {
   width: 400px;
+  height: 200px;
 }
 .sub-card2 .main-img {
   width: 400px;
+  height: 200px;
 }
 .sub-card1 h5 {
   margin-top: 0.5rem;
@@ -191,8 +193,17 @@ p {
     display: flex;
     flex-direction: column;
   }
+  .sub-card1 img {
+    height: 100px;
+    width: 100px;
+  }
+  .sub-card2 img {
+    height: 100px;
+    width: 100px;
+  }
   .card-1 svg {
     margin-left: 9rem;
+    margin-right: 8rem;
   }
   .footer-row {
     display: flex;
