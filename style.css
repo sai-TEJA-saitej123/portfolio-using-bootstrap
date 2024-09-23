@@ -77,8 +77,6 @@ body {
   margin-top: 2rem;
 }
 
-
-
 /* projects*/
 .projects h3 {
   margin-top: 3rem;
@@ -175,13 +173,39 @@ p {
 }
 
 /* responisveness */
+
+@media screen and (max-width: 500px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    height: 300px;
+    width: 300px;
+    margin-right: 6rem;
+  }
+  .cards,
+  .sub-card1,
+  .sub-card2,
+  .main-part {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-1 svg {
+    margin-left: 9rem;
+  }
+  .footer-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 750px) {
   .main-container {
     display: flex;
     flex-direction: column;
   }
-  .sub-container-1 img {
-    margin-left: 5rem;
+  img {
+    /* margin-left: 5rem; */
   }
   .cards,
   .sub-card1,
