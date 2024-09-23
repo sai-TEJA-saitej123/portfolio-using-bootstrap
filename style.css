@@ -215,9 +215,7 @@ p {
     display: flex;
     flex-direction: column;
   }
-  img {
-    /* margin-left: 5rem; */
-  }
+  
   .cards,
   .sub-card1,
   .sub-card2,
